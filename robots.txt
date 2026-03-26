@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dhruvamathur.github.io/al-folio/sitemap.xml
+Sitemap: https://dhruvamathur.github.io/sitemap.xml
