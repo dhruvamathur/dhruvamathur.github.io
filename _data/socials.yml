@@ -1,18 +1,5 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-
-cv_pdf: /assets/pdf/Dhruva_Mathur_CV.pdf   # path to your CV PDF file
-
-email: dmathur@ncsu.edu               # your email address
-
-twitter_username: dhruva_mathur       # without @
-
-linkedin_username: dhruvamathur       # your LinkedIn username or slug
-
-scholar_userid: vWeLQ1EAAAAJ          # your Google Scholar ID
-
-# Do NOT define custom_social unless you provide a logo:
-# custom_social:
-#   logo: https://example.com/logo.png
-#   title: Custom Social
-#   url: https://example.com/
+cv_pdf: /assets/pdf/example_pdf.pdf
+email: dmathur@ncsu.edu
+twitter_username: dhruva_mathur
+linkedin_username: dhruvamathur
+scholar_userid: vWeLQ1EAAAAJ
