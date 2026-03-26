@@ -14,9 +14,11 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article class="about-no-wrap-article">
-    {% if page.profile %}
-      <div class="about-no-wrap-photo">
+  <article>
+    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+
+      {% if page.profile %}
+        <div style="flex: 0 0 220px; max-width: 220px;">
           {% if page.profile.image %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% if page.profile.image_circular %}
@@ -24,28 +26,28 @@ layout: default
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            <div style="max-width: 220px;">
-              {%
-                include figure.liquid
-                loading="eager"
-                path=profile_image_path
-                class=profile_image_class
-                sizes=sizes
-                alt=page.profile.image
-                cache_bust=true
-                style="max-width: 220px; height: auto;"
-              %}
-            </div>
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+30vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              class=profile_image_class
+              sizes=sizes
+              alt=page.profile.image
+              cache_bust=true
+            %}
+          {% endif %}
+          {% if page.profile.more_info %}
+            <div class="more-info">{{ page.profile.more_info }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
 
-    <div class="about-no-wrap-text">
-      {{ content }}
+      <div style="flex: 1 1 auto; overflow: hidden;">
+        {{ content }}
+      </div>
+
     </div>
 
     <!-- News -->
