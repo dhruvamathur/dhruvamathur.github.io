@@ -1,35 +1,18 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin:
-# https://github.com/george-gca/jekyll-socials
 
-# CV PDF
-cv:
-  url: /assets/pdf/Dhruva_Mathur_CV.pdf
+cv_pdf: /assets/pdf/Dhruva_Mathur_CV.pdf   # path to your CV PDF file
 
-# Email
-email:
-  address: dmathur@ncsu.edu
+email: dmathur@ncsu.edu               # your email address
 
-# Twitter / X
-twitter:
-  username: dhruva_mathur    # without @
+twitter_username: dhruva_mathur       # without @
 
-# LinkedIn
-linkedin:
-  username: dhruvamathur      # the part after /in/
+linkedin_username: dhruvamathur       # your LinkedIn username or slug
 
-# Google Scholar
-scholar:
-  userid: vWeLQ1EAAAAJ
+scholar_userid: vWeLQ1EAAAAJ          # your Google Scholar ID
 
-# Optional: RSS icon
-# rss:
-#   enabled: true
-
-# wechat_qr:
-# whatsapp_number:
+# Do NOT define custom_social unless you provide a logo:
 # custom_social:
-#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png
+#   logo: https://example.com/logo.png
 #   title: Custom Social
-#   url: https://www.alberteinstein.com/
+#   url: https://example.com/
