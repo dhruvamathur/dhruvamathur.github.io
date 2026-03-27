@@ -34,6 +34,8 @@ Before joining NC State, I worked for six-years at the [Indian School of Public 
 At NC State, I am currently studying faculty responses and norms to AI across disciplines at US universities, and separately, the political dynamics of budget cuts at universities using archival data from NC State's own history of dealing with budget cuts during the Great Depression using a new foundational theory on fiscal pressures. I am also a [Mansour Doctoral Fellow](https://grad.ncsu.edu/mansour-graduate-fellows/).
 
 <!-- trigger deploy -->
+<!-- trigger deploy -->
+
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
