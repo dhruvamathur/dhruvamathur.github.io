@@ -17,11 +17,11 @@
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    color: #FFFFFF;
   }
 
   a:hover {
-    color: var(--global-hover-color);
+    color: #FFFFFF;
   }
 
   .dropdown-divider {
@@ -30,7 +30,7 @@
 }
 
 .dropdown-item {
-  color: var(--global-text-color);
+  color: #FFFFFF;
 
   &:hover {
     color: var(--global-hover-color);
@@ -41,10 +41,10 @@
 .dropdown-item.active,
 .dropdown-item:active {
   background-color: var(--global-hover-color);
-  color: var(--global-hover-text-color) !important;
+  color: #FFFFFF !important;
 
   &:hover {
-    color: var(--global-hover-text-color);
+    color: #FFFFFF;
   }
 }
 
@@ -56,14 +56,14 @@
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: #FFFFFF;
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: #FFFFFF;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: #FFFFFF;
     }
   }
 
