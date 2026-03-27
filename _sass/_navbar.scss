@@ -70,10 +70,10 @@
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
-    color: var(--global-theme-color);
+    color: #D14905;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: #D14905;
     }
   }
 
@@ -102,13 +102,13 @@
       }
 
       i::before {
-        color: var(--global-text-color);
+        color: #CC0000;
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: #CC0000;
         }
       }
     }
